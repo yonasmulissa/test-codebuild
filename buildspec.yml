@@ -17,5 +17,6 @@ phases:
     commands:
       - echo Build completed on `data`
 artifacts:
+  type: zip
   files:
-    - 'target/codemo.war'
+    - 'build/libs/*.jar'
